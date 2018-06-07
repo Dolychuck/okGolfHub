@@ -28,5 +28,6 @@ integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhk
 		</c:forEach>
 		</tbody>
 	</table>
+	<h1>${hole}</h1>
 </body>
 </html>

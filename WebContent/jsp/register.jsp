@@ -1,6 +1,7 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-	
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -16,7 +17,9 @@
 				</td>
 			</tr>
 			<tr>
-				<td><form:label path="password">Password</form:label></td> <td> <form:password path="password" name="password" id="password" /> </td> 
+				<td><form:label path="password">Password</form:label></td>
+				<td><form:password path="password" name="password"
+						id="password" /></td>
 			</tr>
 			<tr>
 				<td><form:label path="firstname">FirstName</form:label></td>
@@ -53,6 +56,5 @@
 			</tr>
 		</table>
 	</form:form>
-	<%@ include file="courseList.jsp"  %>
 </body>
 </html>
