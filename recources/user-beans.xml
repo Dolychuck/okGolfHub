@@ -7,9 +7,13 @@
 
 	<bean id="userService" class="ok.springmvc.service.UserServiceImpl" />
 	
+	<bean id="holeService" class="ok.springmvc.service.HoleServiceImpl" />
+	
 	<bean id="courseService" class="ok.springmvc.service.CourseServiceImpl" />
 
-	<bean id="userDao" class="ok.springmvc.dao.UserDaoImpl" /> 
+	<bean id="userDao" class="ok.springmvc.dao.UserDaoImpl" />
+	
+	<bean id="holeDao" class="ok.springmvc.dao.HoleDaoImpl" />  
 	
 	<bean id="courseDao" class="ok.springmvc.dao.CourseDaoImpl" /> 
 
@@ -23,5 +27,4 @@
 		<property name="username" value="root" /> 
 		<property name="password" value="Ichiban" /> 
 	</bean> 
-	
 </beans>
